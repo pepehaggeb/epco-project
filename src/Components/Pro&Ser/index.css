@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.bodyProduct {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyProduct div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bodyProduct div p {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}

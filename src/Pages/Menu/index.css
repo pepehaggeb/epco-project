@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.imageElevator {
+    background-image: url('../../Images/fotoElevador.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.textExplicationImageElevator {
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    gap: 10px;
+}
+
+.textExplicationImageElevator p {
+    color: white;
+    width: 280px;
+    text-align: justify;
+}
+
+.textAtendimentoImageElevator {
+    border-bottom: 4px solid #32425c;
+    border-radius: 5px;
+}
+
+.textAtendimentoImageElevator p{
+    color: white;
+}
+
+.textAtendimentoImageElevator h1{
+    color: white;
+}
+
+.backgroundOpacity {
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    top: 72px;
+    height: 400px;
+    background-color: #32425c;
+    opacity: 0.4;
+}
+
+.productAndServices {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 110px;
+    padding-bottom: 20px;
+}
+
+.sobreEPCO {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 240px;
+    border-top: 4px solid #32425c;
+    border-bottom: 4px solid #32425c;
+}
+
+.textSobreEPCO {
+    width: 450px;
+}
+
+.textSobreEPCO h1 {
+    color: #32425c;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.textSobreEPCO p {
+    color: #858585;
+    padding-left: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.imgSobreEPCO {
+    border-radius: 8px;
+}
+
+.principiosEPCO {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    gap: 90px;
+    transition: 1.5s;
+}
+
+.iconSolucoes {
+    padding-bottom: 70px;
+}
+
+.solucoesEPCO {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 350px;
+}
+
+.solucoesEPCO h1 {
+    color: #32425c;
+}
+
+.solucoesEPCO p {
+    text-align: justify;
+    color: #858585;
+    font-family: 'Poppins', sans-serif;
+}
+
+.copyEPCO {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.copyEPCO p{
+    color: #32425c;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 1644px) {
+    .textAtendimentoImageElevator p{
+        font-size: 11pt;
+    }
+    
+    .textAtendimentoImageElevator h1{
+        font-size: 18pt;
+    }
+
+    .textExplicationImageElevator p {
+        font-size: 11pt;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .principiosEPCO {
+        flex-direction: column;
+    }
+    .imgSobreEPCO {
+        display: none;
+    }
+    .sobreEPCO {
+        gap: 60px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .textAtendimentoImageElevator p{
+        font-size: 8pt;
+    }
+    
+    .textAtendimentoImageElevator h1{
+        font-size: 16pt;
+    }
+
+    .textExplicationImageElevator p {
+        font-size: 8pt;
+    }
+
+    .textExplicationImageElevator {
+        width: 200px;
+    }
+
+    .imageElevator {
+        gap: 140px;
+    }
+
+    .productAndServices {
+        gap: 40px;
+    }
+}
