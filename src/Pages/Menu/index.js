@@ -62,7 +62,7 @@ function Menu() {
                     >
                         <h1><AiOutlineCheckSquare/>Sobre a EPCO</h1>
                         <p>A EPCO – Engenharia de Produtos e Componentes, foi fundada em 2014, com o objetivo de apresentar aos clientes, soluções completas no desenvolvimento de produtos e fabricação.</p>
-                        <p>Em nossa linha, oferecemos os serviços de corte a laser e dobra de materiais ferrosos e orgânicos, prototipagem 3D, etiquetas resinadas e contamos com uma equipe altamente especializada na produção de botoeiras para elevador.</p>
+                        <p>Em nossa linha teste, oferecemos os serviços de corte a laser e dobra de materiais ferrosos e orgânicos, prototipagem 3D, etiquetas resinadas e contamos com uma equipe altamente especializada na produção de botoeiras para elevador.</p>
                     </motion.div>
                     <motion.div 
                     className="fotoSobreEPCO"
